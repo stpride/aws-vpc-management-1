@@ -1,6 +1,6 @@
 
 module "vpc-east-1" {
-  source      = "https://github.com/stpride/aws-module-vpc.git"
+  source      = "git::https://github.com/stpride/aws-module-vpc.git"
   region      = "us-east-1"
   environment = "dev"
   name        = "VPC-Management-1"
